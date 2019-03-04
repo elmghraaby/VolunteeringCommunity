@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activities.RegisterActivity"
-    android:background="@drawable/background">
+    android:background="#ffffff">
 
     <ImageView
         android:id="@+id/regUserPhoto"
@@ -39,7 +39,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="4dp"
         android:ems="10"
-        android:textColorHint="#fff"
+        android:textColorHint="#000"
         android:background="@drawable/reg_edittext_style"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/regMail"
@@ -48,7 +48,7 @@
 
     <EditText
         android:hint="Email"
-        android:textColorHint="#fff"
+        android:textColorHint="#000"
         android:id="@+id/regMail"
         android:layout_width="265dp"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
 
     <EditText
         android:hint="Password"
-        android:textColorHint="#fff"
+        android:textColorHint="#000"
         android:id="@+id/regPassword"
         android:layout_width="265dp"
         android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
 
     <EditText
         android:hint="Confirm Password"
-        android:textColorHint="#fff"
+        android:textColorHint="#000"
         android:id="@+id/regPassword2"
         android:layout_width="265dp"
         android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/reg_btn_style"
         android:text="Register"
-        android:textColor="#fff"
+        android:textColor="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
